@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+/*블럭요소를 인라인 요소로 변경하여 화면에 출력 display:inline;*/
+li{/*border: 1px solid blue;*/ display:inline;
+       text-transform: uppercase;
+       padding:0 10px;
+       letter-spacing: 5px;}
+ul{list-style:none;
+     text-align:center;
+     border-top: 1px solid red;
+     border-bottom: 1px solid red;
+     padding:10px 0;/*위아래 간격:10,양 옆 간격:0*/} 
+ ul li a{text-decoration: none; color:black;}
+ ul li a:hover{text-decoration: underline;}
+</style>
+</head>
+<body>
+<div>
+<ul>
+    <li><a href="horizontal-list.html">Home</a></li><!-- li는 블럭 요소 -->
+    <li><a href="#">Blog</a></li>
+    <li><a href="About.html">About</a></li>
+    <li><a href="Contact.html">Contact</a></li>
+</ul>
+</div>
+<h1>블로그 페이지</h1>
+</body>
+</html>
